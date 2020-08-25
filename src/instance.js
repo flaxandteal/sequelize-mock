@@ -223,6 +223,14 @@ fakeModelInstance.prototype.setDataValue = function (key, value) {
 };
 
 /**
+ * Remove an auto-attribute
+ * @param {String} key Key to remove
+ */
+fakeModelInstance.prototype.removeAttribute = function (key) {
+};
+
+
+/**
  * Triggers validation. If there are errors added through `$addValidationError` they will
  * be returned and the queue of validation errors will be cleared.
  * 
